@@ -18,6 +18,14 @@ h2{
 h5{
   font-weight: 300;
 }
+.img1:hover,
+.img1:focus,
+.img1:active,
+.img1:after{
+  transform: scale(1.28);
+  transition-duration: 0.3s;
+  opacity:1;
+}
 
 /* Animated Circles CSS */
 
