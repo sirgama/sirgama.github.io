@@ -1,12 +1,16 @@
 
 h1{
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 h2{
   font-weight: 500;
-  font-size: 50px;
+  font-size: 60px;
+  color: #413563c2;
+}
+h5{
+  font-weight: 300;
 }
 
 /* Animated Circles CSS */
