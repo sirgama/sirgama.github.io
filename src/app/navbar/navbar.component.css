@@ -1,0 +1,8 @@
+*{
+  color: #413563 !important;
+}
+.navbar{
+  background: rgb(231,230,236);
+background: linear-gradient(90deg, rgba(231,230,236,1) 0%, rgba(216,213,230,1) 100%);
+
+}
