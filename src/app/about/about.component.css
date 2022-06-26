@@ -1,6 +1,29 @@
 
 .about{
-  height: 100vh;
+  height: 70vh;
   background: rgb(162,197,253);
 background: linear-gradient(90deg, rgba(162,197,253,1) 0%, rgba(191,229,250,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .about {
+height: auto;
+}
 }
