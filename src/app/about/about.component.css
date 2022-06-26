@@ -1,0 +1,6 @@
+
+.about{
+  height: 100vh;
+  background: rgb(162,197,253);
+background: linear-gradient(90deg, rgba(162,197,253,1) 0%, rgba(191,229,250,1) 100%);
+}
