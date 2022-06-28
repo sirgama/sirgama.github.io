@@ -1,9 +1,33 @@
-
+*{
+  color: rgb(11, 0, 52);
+}
 .about{
   height: 100vh;
   background-color: #f4f0f1;
 }
-
+.abtme{
+  font-size: 35px;
+}
+.num{
+  color: #5468ff;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nume{
+  color: #5468ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.xda{
+  background-color: rgba(244, 197, 57, 0.749);
+}
+.xda:hover{
+  background-color: orange;
+  border-bottom: 3px solid orange;
+}
 
 
 
