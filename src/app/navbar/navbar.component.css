@@ -4,8 +4,12 @@
 .navbar{
   background-color: none;
 }
-.navbar-brand{
-  height: 39px;
+.navbar-brand, .fa-shekel-sign{
+  height: 59px;
+  font-weight: 900;
+  color: rgb(11, 1, 47) !important;
+  font-size: 30px !important;
+  font-family: 'Poppins' sans-serif ;
 }
 
 
@@ -50,3 +54,4 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
