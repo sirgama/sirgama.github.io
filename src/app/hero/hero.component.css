@@ -28,9 +28,9 @@ h5{
 .web{
   color: #5468ff;
   font-weight: bolder;
-  border-bottom: 8px solid #5468ff;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  font-family: 'Poppins' sans-serif !important;
 }
 .img1:hover,
 .img1:focus,
@@ -192,6 +192,32 @@ h5{
   .sett {
 height: auto;
 }
+.name{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #fca51f;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 55px;
+  color: rgb(11, 1, 47);
+}
+h5{
+  font-weight: 300;
+}
+.web{
+  color: #5468ff;
+  font-weight: bolder;
+  font-size: 60px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 }
 
 
@@ -251,4 +277,29 @@ text-decoration: none;
 .talkbtn:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #5468ff;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 7px;
+  bottom: 0;
+  left: 0;
+  background-color: #5468ff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
