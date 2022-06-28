@@ -1,9 +1,15 @@
 *{
-  background-color: #111828;
+color: rgb(11, 1, 47);
 
+}
+
+.name{
+  font-size: 50px;
+  color: #fca51f;
 }
 .sett{
   height: 100vh;
+
 }
 h1{
   font-weight: bolder;
@@ -13,7 +19,7 @@ h1{
 h2{
   font-weight: 500;
   font-size: 60px;
-  color: #e9e7efc2;
+  color: rgb(11, 1, 47);
 }
 h5{
   font-weight: 300;

@@ -1,10 +1,12 @@
 *{
-  color: #e3dbf7 !important;
+  color: rgb(11, 1, 47) !important;
 }
 .navbar{
-  background-color: #111828;
+  background-color: none;
 }
-
+.logotext{
+  height: 39px;
+}
 
 
 .button-70 {
