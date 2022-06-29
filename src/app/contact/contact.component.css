@@ -1,0 +1,63 @@
+*{
+  color: rgb(11, 0, 52);
+}
+.about{
+  height: 100vh;
+  background: rgb(242,242,254);
+  background: linear-gradient(90deg, rgba(242,242,254,1) 0%, rgba(243,243,255,1) 14%, rgba(241,245,255,1) 49%, rgba(238,247,255,1) 50%, rgba(236,249,255,1) 81%, rgba(235,248,254,1) 89%, rgba(237,248,237,1) 100%);
+}
+.abtme{
+  font-size: 35px;
+}
+.abtmee{
+  font-size: 21px;
+  font-family: 'Poppins' ;
+}
+.num{
+  color: #5468ff;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nume{
+  color: #5468ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.xda{
+  background-color: rgba(244, 197, 57, 0.749);
+}
+.xda:hover{
+  background-color: orange;
+  border-bottom: 3px solid orange;
+}
+.abtm, li{
+  font-size: 20px;
+
+}
+li{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .about {
+height: auto;
+}
+}
