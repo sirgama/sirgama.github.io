@@ -32,7 +32,10 @@ a{
   font-size: 20px;
 }
 
-
+.card{
+  box-shadow: none;
+  border: none;
+}
 
 
 
@@ -52,3 +55,18 @@ a{
 height: auto;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
